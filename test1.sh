@@ -1,5 +1,8 @@
 #!/bin/bash
-for ((i=1; i<=10; i++))
+# Print numbers from 1 to 10
+i=1
+while [ $i -le 10 ]
 do
     echo $i
+    i=$((i+1))
 done
